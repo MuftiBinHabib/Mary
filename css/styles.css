@@ -1,0 +1,252 @@
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+nav{
+    position: relative;
+}
+
+nav button{
+    width: 150px;
+    height: 64px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Open Sans", serif;
+    background-color: #FD6E0A;
+    color: white;
+}
+
+nav .portfolioblogs{
+    gap: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Open Sans", serif;
+    
+}
+
+/* Banner */
+
+#banner h1{
+    margin-top: 185px;
+    font-weight: 600;
+    font-size: 45px;
+    font-family: "Open Sans", serif;
+}
+
+#banner h2{
+    font-weight: 700;
+    font-size: 85px;
+    font-family: "Open Sans", serif;
+}
+
+#banner p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Open Sans", serif;
+}
+
+#banner .button1{
+    width: 200px;
+    height: 64px;
+    border: none;
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+    border: 1px #FD6E0A solid;
+
+}
+#banner .button1:hover{
+    
+    background-color: #FD6E0A;
+    color: #FFF8F3;
+}
+
+#banner .button2{
+    width: 160px;
+    height: 64px;
+    border: none;
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+    border: 1px #FD6E0A solid;
+
+    margin-left: 30px;
+
+}
+#banner .button2:hover{
+    
+    background-color: #FD6E0A;
+    color: #FFF8F3;
+}
+.developerbanner{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#banner img{
+    margin-top: 47px;
+}
+
+/* About */
+#about{
+    margin: 130px;
+    width: 1140px;
+    background-color: #FFF8F3;
+}
+
+#about h2{
+    text-align: center;
+}
+
+#about p{
+    margin: 0 auto;
+    text-align: center;
+    width: 827px;
+}
+
+#about a{
+    text-decoration: none;
+    color: black;
+}
+
+#about .listtitle{
+    margin-top: 30px;
+    
+    width: 782px;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+#about .list{
+    width: 782px;
+    display: flex;
+    list-style: none;
+    gap: 50px;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Open Sans", serif;
+}
+
+/* What I do */
+#what h2{
+    text-align: center;
+}
+
+#what p{
+    width: 909px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#what .jsicon{
+    height: 44px;
+    width: 44px;
+}
+
+#what .textp{
+    width: 201px;
+}
+
+#what .techrow{
+    margin-top: 50px;
+}
+
+/* Summary */
+#summary{
+    margin-top: 160px;
+}
+
+#summary h2{
+    text-align: center;
+}
+
+#summary .MyEducation h2{
+    text-align: left;
+    margin-top: 113px;
+}
+
+#summary .MyExperience h2{
+    text-align: left;
+    margin-top: 113px;
+    
+}
+
+#summary .MyEducation{
+    list-style: none;
+}
+
+#summary .MyExperience{
+    list-style: none;
+}
+
+#summary button{
+    height: 64px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+}
+
+/* Footer */
+footer{
+    margin-top: 113px;
+    background-color: #FFF8F3;
+    position: relative;
+}
+
+footer .footerwrapper h2{
+    margin-top: 130px;
+}
+
+footer .socialicons{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+
+footer .socialicons a{
+
+    color: #FD6E0A;
+
+}
+
+footer .messagebox{
+    width: 461px;
+    height: 180px;
+    margin-top: 24px;
+}
+
+footer .submitbutton {
+    width: 150px;
+    height: 64px;
+    position: absolute;
+    bottom: -85px;
+    left: 687px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+footer input{
+    width: 461px;
+    height: 64px;
+    margin-top: 20px;
+}
+
